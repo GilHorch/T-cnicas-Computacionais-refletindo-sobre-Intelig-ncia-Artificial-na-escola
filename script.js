@@ -10,24 +10,44 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "afirmacao"
+                afirmacao: [
+                    "No inicio ficou com medo do que esa tecnologia pode fazer",
+                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando"
+
+                ]
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "afirmacao"
+                afirmacao: [
+                "Quis saber como usar IA no seu dia a dia.",
+                "Pensou que IA pode ajudar em tarefas da sua vida."
+                ]
             }           
             
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre elaIA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
+        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência 
+        Artificial (IA), uma professora de tecnologia da escola decidiu 
+        fazer uma sequência de aulas sobre ela IA. No fim de uma aula ela 
+        pede que você escreva um trabalho sobre o uso de tecnologia em 
+        sala de aula. Qual atitude você toma?",
+
         alternativas: [
             {
-                texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao:"afirmacao"
+                texto:"Utilizar uma ferramenta de busca na internet que utiliza IA 
+                para que ela ajude a encontrar informações relevantes para o trabalho 
+                e explique numa linguagem que facilite o entendimento",
+                afirmacao:[
+                    "Você acredita que as ferrementas de busca utuilizando IA acilitam a apredizagem.",
+                    "Além de facilitar a aprendizagem A IA torna o trabalho mais ágil"
+
+
+                ]
             },
             {
-                texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Escrever o trabalho com base nas conversas que teve com colegas, 
+                algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
                 afirmacao:"afirmacao"
             }
         ]
